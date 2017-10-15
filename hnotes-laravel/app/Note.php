@@ -134,7 +134,7 @@ class Note extends Model
 
             foreach ($recognitionResult->lines as $line) {
                 list($lineLeftTopX, $lineLeftTopY, $lineRightTopX, $lineRightTopY, $lineRightBottomX, $lineRightBottomY, $lineLeftBottomX, $lineLeftBottomY) = $line->boundingBox;
-                $resultString .= "<div style='position: absolute; top:$lineLeftTopY; left: $lineLeftTopX; height:" . ($lineLeftBottomY - $lineLeftTopY) . "px; width:" . ($lineLeftTopX - $lineRightTopX) . "px; display: flex; flex-direction: row; flex-wrap: nowrap; align-items: flex-end;'>";
+                $resultString .= "<div style='position: absolute; top:".$lineLeftTopY."px; left: ".$lineLeftTopX."px; height:" . ($lineLeftBottomY - $lineLeftTopY) . "px; width:" . ($lineLeftTopX - $lineRightTopX) . "px; display: flex; flex-direction: row; flex-wrap: nowrap; align-items: flex-end;'>";
                 foreach ($line->words as $word) {
                     list($wordLeftTopX, $wordLeftTopY, $wordRightTopX, $wordRightTopY, $wordRightBottomX, $wordRightBottomY, $wordLeftBottomX, $wordLeftBottomY) =  $word->boundingBox;
 

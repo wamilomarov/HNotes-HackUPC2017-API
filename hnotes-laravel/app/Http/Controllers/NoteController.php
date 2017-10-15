@@ -37,9 +37,9 @@ class NoteController extends Controller
                     $note->unique_id = $unique_id;
                     $note->image_url = $fileName;
                     $note->title = $request->get('title');
-                    if ($request->user())
+                    if (Auth::user())
                     {
-                        $note->user_id = $request->user()->id;
+                        $note->user_id = Auth::user()->id;
                     }
 
                     $note->content = $note->buildText();

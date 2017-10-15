@@ -24,7 +24,7 @@ $app->post('/notes/bas64/', 'NoteController@addBase64');
 $app->get('/notes/{id}', ['middleware' => 'auth', 'uses' => 'NoteController@getById']);
 $app->post('/notes/share', 'UserController@shareNote');
 $app->get('/notes/shared/{access_token}', 'NoteController@getByAccessToken');
-$app->get('/notes/delete/{unique_id}', 'NoteController@delete');
+$app->get('/notes/delete/{unique_id}', ['middleware' => 'auth', 'uses' => 'NoteController@delete']);
 
 $app->post('/login/facebook', 'UserController@facebookLogin');
 $app->post('/login/google', 'UserController@googleLogin');
