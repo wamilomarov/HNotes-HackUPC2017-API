@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="hnotes-centos">
+    <serverData>
+      <paths name="DreamCard">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Mida">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="hnotes-centos">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/.cache" />
+            <excludedPath path="/.config" />
+            <excludedPath path="/.local" />
+            <excludedPath path="/.usermin" />
+            <excludedPath path="/etc" />
+            <excludedPath path="/cgi-bin" />
+            <excludedPath path="/fcgi-bin" />
+            <excludedPath path="/awstats" />
+            <excludedPath path="/ftp" />
+            <excludedPath path="/homes" />
+            <excludedPath path="/logs" />
+            <excludedPath path="/Maildir" />
+            <excludedPath path="/tmp" />
+            <excludedPath path="/hnotes-laravel/vendor" />
+            <excludedPath path="/public_html/.usermin" />
+            <excludedPath path="/public_html/awstats-icon" />
+            <excludedPath path="/public_html/awstatsicons" />
+            <excludedPath path="/public_html/icon" />
+            <excludedPath path="/public_html/stats" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.cache" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.config" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.local" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.usermin" />
+            <excludedPath local="true" path="$PROJECT_DIR$/etc" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cgi-bin" />
+            <excludedPath local="true" path="$PROJECT_DIR$/fcgi-bin" />
+            <excludedPath local="true" path="$PROJECT_DIR$/awstats" />
+            <excludedPath local="true" path="$PROJECT_DIR$/ftp" />
+            <excludedPath local="true" path="$PROJECT_DIR$/homes" />
+            <excludedPath local="true" path="$PROJECT_DIR$/logs" />
+            <excludedPath local="true" path="$PROJECT_DIR$/Maildir" />
+            <excludedPath local="true" path="$PROJECT_DIR$/tmp" />
+            <excludedPath local="true" path="$PROJECT_DIR$/hnotes-laravel/vendor" />
+            <excludedPath local="true" path="$PROJECT_DIR$/public_html/.usermin" />
+            <excludedPath local="true" path="$PROJECT_DIR$/public_html/awstats-icon" />
+            <excludedPath local="true" path="$PROJECT_DIR$/public_html/awstatsicons" />
+            <excludedPath local="true" path="$PROJECT_DIR$/public_html/icon" />
+            <excludedPath local="true" path="$PROJECT_DIR$/public_html/stats" />
+            <excludedPath path="/public_html/phpmyadmin" />
+            <excludedPath path="/public_html/uploads" />
+            <excludedPath local="true" path="$PROJECT_DIR$/public_html/uploads" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="hnotess-azure">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
