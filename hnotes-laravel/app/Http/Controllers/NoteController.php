@@ -50,7 +50,6 @@ class NoteController extends Controller
                         ['note_id' => $note->id, 'access_token' => $access_token]
                     );
                     $note->access_token = $access_token;
-
                     $result = ['status' => 200, 'note' => $note];
                 }
                 else
